@@ -133,6 +133,11 @@ If no devices show up in Home Assistant:
     - App account not linked with cloud project: On the [Tuya IoT Platform](https://iot.tuya.com/cloud/), you have linked devices by using Tuya Smart or Smart Life app in your cloud project. For more information, see [Link devices by app account](https://developer.tuya.com/docs/iot/Platform_Configuration_smarthome?id=Kamcgamwoevrx#title-3-Link%20devices%20by%20app%20account).
 
     - Incorrect username or password: Enter the correct account and password of the Tuya Smart or Smart Life app in the **Account** and **Password** fields (social login, which the Tuya Smart app allows, may not work, and thus should be avoided for use with the Home Assistant integration). Note that the app account depends on which app (Tuya Smart or Smart Life) you used to link devices on the [Tuya IoT Platform](https://iot.tuya.com/cloud/).
+    
+      ***** Note the username can be found by going to  developer app> cloud> Project> Devices> Link Tuya App Account and taking the value under "UID"
+      
+      <img width="851" alt="image" src="https://user-images.githubusercontent.com/58489377/236170798-eb78750b-9ad5-443d-a71a-0ece16d2115b.png">
+
 
     - Incorrect country. You must select the region of your account of the Tuya Smart app or Smart Life app.
 
